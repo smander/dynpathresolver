@@ -1,0 +1,15 @@
+{
+    "benchmark": "10_indirect_call",
+    "description": "dlopen called via function pointer resolved at runtime",
+    "technique": "indirect_function_call",
+    "difficulty": "medium",
+    "expected_libraries": [
+        {
+            "name": "libindirect.so",
+            "load_condition": "unconditional",
+            "obfuscation": "dlopen called through function pointer"
+        }
+    ],
+    "expected_symbols": ["indirect_function"],
+    "notes": "Requires tracking function pointers or hooking all indirect calls"
+}

@@ -1,0 +1,15 @@
+{
+    "benchmark": "11_multi_encoding",
+    "description": "Library name encoded with base64 + XOR + string reversal",
+    "technique": "multi_layer_encoding",
+    "difficulty": "medium",
+    "expected_libraries": [
+        {
+            "name": "libmulti.so",
+            "load_condition": "unconditional",
+            "obfuscation": "base64 -> XOR -> reverse"
+        }
+    ],
+    "expected_symbols": ["multi_function"],
+    "notes": "Requires symbolic execution to track through multiple transformations"
+}

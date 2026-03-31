@@ -1,0 +1,19 @@
+{
+    "benchmark": "01_simple_dlopen",
+    "description": "Simple hardcoded dlopen path",
+    "expected_libraries": [
+        {
+            "name": "libplugin.so",
+            "path": "./libplugin.so",
+            "symbols": ["plugin_process", "plugin_init", "plugin_cleanup"],
+            "guarded": false,
+            "guard_type": null
+        }
+    ],
+    "expected_dlopen_calls": 1,
+    "expected_dlsym_calls": 1,
+    "has_anti_debug": false,
+    "has_vm_detection": false,
+    "has_timing_checks": false,
+    "complexity": "low"
+}

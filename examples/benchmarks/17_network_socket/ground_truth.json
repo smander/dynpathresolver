@@ -1,0 +1,28 @@
+{
+    "benchmark": "17_network_socket",
+    "description": "Library path received via network socket (recv → dlopen)",
+    "technique": "network_socket",
+    "difficulty": "hard",
+    "expected_libraries": [
+        {
+            "name": "libnetplugin.so",
+            "path": "./libnetplugin.so",
+            "symbols": ["net_process"],
+            "guarded": false,
+            "guard_type": null
+        }
+    ],
+    "expected_dlopen_calls": 1,
+    "expected_dlsym_calls": 1,
+    "has_anti_debug": false,
+    "has_vm_detection": false,
+    "has_timing_checks": false,
+    "complexity": "high",
+    "network_triggered": true,
+    "detection_indicators": {
+        "socket_call": true,
+        "connect_call": true,
+        "recv_call": true,
+        "dlopen_from_recv": true
+    }
+}

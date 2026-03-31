@@ -1,0 +1,19 @@
+{
+    "benchmark": "02_environment_path",
+    "description": "Library path from environment variable",
+    "expected_libraries": [
+        {
+            "name": "libplugin.so",
+            "path": "${PLUGIN_DIR}/libplugin.so",
+            "symbols": ["process_data"],
+            "guarded": false,
+            "guard_type": null
+        }
+    ],
+    "expected_dlopen_calls": 1,
+    "expected_dlsym_calls": 1,
+    "has_anti_debug": false,
+    "has_vm_detection": false,
+    "has_timing_checks": false,
+    "complexity": "low"
+}

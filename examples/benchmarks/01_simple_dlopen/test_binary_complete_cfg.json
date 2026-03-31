@@ -1,0 +1,3238 @@
+{
+  "nodes": {
+    "0x400700": {
+      "addr": 4196096,
+      "size": 48,
+      "instructions": [
+        "0x400700: bti c",
+        "0x400704: mov x29, #0",
+        "0x400708: mov x30, #0",
+        "0x40070c: mov x5, x0",
+        "0x400710: ldr x1, [sp]",
+        "0x400714: add x2, sp, #8",
+        "0x400718: mov x6, sp",
+        "0x40071c: adrp x0, #0x400000",
+        "0x400720: add x0, x0, #0x734",
+        "0x400724: mov x3, #0",
+        "0x400728: mov x4, #0",
+        "0x40072c: bl #0x400670"
+      ],
+      "function_addr": 4196096,
+      "function_name": "_start",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": true,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400670": {
+      "addr": 4195952,
+      "size": 16,
+      "instructions": [
+        "0x400670: adrp x16, #0x420000",
+        "0x400674: ldr x17, [x16, #8]",
+        "0x400678: add x16, x16, #8",
+        "0x40067c: br x17"
+      ],
+      "function_addr": 4195952,
+      "function_name": "__libc_start_main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x500010": {
+      "addr": 5242896,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242896,
+      "function_name": "__libc_start_main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400734": {
+      "addr": 4196148,
+      "size": 8,
+      "instructions": [
+        "0x400734: bti c",
+        "0x400738: b #0x400804"
+      ],
+      "function_addr": 4196148,
+      "function_name": "__wrap_main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400804": {
+      "addr": 4196356,
+      "size": 32,
+      "instructions": [
+        "0x400804: stp x29, x30, [sp, #-0x50]!",
+        "0x400808: mov x29, sp",
+        "0x40080c: str x19, [sp, #0x10]",
+        "0x400810: str w0, [sp, #0x2c]",
+        "0x400814: str x1, [sp, #0x20]",
+        "0x400818: adrp x0, #0x400000",
+        "0x40081c: add x0, x0, #0x920",
+        "0x400820: bl #0x4006b0"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4006b0": {
+      "addr": 4196016,
+      "size": 16,
+      "instructions": [
+        "0x4006b0: adrp x16, #0x420000",
+        "0x4006b4: ldr x17, [x16, #0x28]",
+        "0x4006b8: add x16, x16, #0x28",
+        "0x4006bc: br x17"
+      ],
+      "function_addr": 4196016,
+      "function_name": "puts",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x500028": {
+      "addr": 5242920,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242920,
+      "function_name": "puts",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400824": {
+      "addr": 4196388,
+      "size": 16,
+      "instructions": [
+        "0x400824: mov w1, #2",
+        "0x400828: adrp x0, #0x400000",
+        "0x40082c: add x0, x0, #0x940",
+        "0x400830: bl #0x400680"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400680": {
+      "addr": 4195968,
+      "size": 16,
+      "instructions": [
+        "0x400680: adrp x16, #0x420000",
+        "0x400684: ldr x17, [x16, #0x10]",
+        "0x400688: add x16, x16, #0x10",
+        "0x40068c: br x17"
+      ],
+      "function_addr": 4195968,
+      "function_name": "dlopen",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x500018": {
+      "addr": 5242904,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242904,
+      "function_name": "dlopen",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400834": {
+      "addr": 4196404,
+      "size": 16,
+      "instructions": [
+        "0x400834: str x0, [sp, #0x48]",
+        "0x400838: ldr x0, [sp, #0x48]",
+        "0x40083c: cmp x0, #0",
+        "0x400840: b.ne #0x400870"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400844": {
+      "addr": 4196420,
+      "size": 16,
+      "instructions": [
+        "0x400844: adrp x0, #0x420000",
+        "0x400848: add x0, x0, #0x60",
+        "0x40084c: ldr x19, [x0]",
+        "0x400850: bl #0x400660"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400870": {
+      "addr": 4196464,
+      "size": 16,
+      "instructions": [
+        "0x400870: adrp x0, #0x400000",
+        "0x400874: add x1, x0, #0x968",
+        "0x400878: ldr x0, [sp, #0x48]",
+        "0x40087c: bl #0x4006c0"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400660": {
+      "addr": 4195936,
+      "size": 16,
+      "instructions": [
+        "0x400660: adrp x16, #0x420000",
+        "0x400664: ldr x17, [x16]",
+        "0x400668: add x16, x16, #0",
+        "0x40066c: br x17"
+      ],
+      "function_addr": 4195936,
+      "function_name": "dlerror",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4006c0": {
+      "addr": 4196032,
+      "size": 16,
+      "instructions": [
+        "0x4006c0: adrp x16, #0x420000",
+        "0x4006c4: ldr x17, [x16, #0x30]",
+        "0x4006c8: add x16, x16, #0x30",
+        "0x4006cc: br x17"
+      ],
+      "function_addr": 4196032,
+      "function_name": "dlsym",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x500008": {
+      "addr": 5242888,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242888,
+      "function_name": "dlerror",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x500030": {
+      "addr": 5242928,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242928,
+      "function_name": "dlsym",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400854": {
+      "addr": 4196436,
+      "size": 20,
+      "instructions": [
+        "0x400854: mov x2, x0",
+        "0x400858: adrp x0, #0x400000",
+        "0x40085c: add x1, x0, #0x950",
+        "0x400860: mov x0, x19",
+        "0x400864: bl #0x4006f0"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400880": {
+      "addr": 4196480,
+      "size": 16,
+      "instructions": [
+        "0x400880: str x0, [sp, #0x40]",
+        "0x400884: ldr x0, [sp, #0x40]",
+        "0x400888: cmp x0, #0",
+        "0x40088c: b.ne #0x4008c4"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4006f0": {
+      "addr": 4196080,
+      "size": 16,
+      "instructions": [
+        "0x4006f0: adrp x16, #0x420000",
+        "0x4006f4: ldr x17, [x16, #0x48]",
+        "0x4006f8: add x16, x16, #0x48",
+        "0x4006fc: br x17"
+      ],
+      "function_addr": 4196080,
+      "function_name": "fprintf",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400890": {
+      "addr": 4196496,
+      "size": 16,
+      "instructions": [
+        "0x400890: adrp x0, #0x420000",
+        "0x400894: add x0, x0, #0x60",
+        "0x400898: ldr x19, [x0]",
+        "0x40089c: bl #0x400660"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4008c4": {
+      "addr": 4196548,
+      "size": 12,
+      "instructions": [
+        "0x4008c4: ldr x1, [sp, #0x40]",
+        "0x4008c8: mov w0, #0x2a",
+        "0x4008cc: blr x1"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x500048": {
+      "addr": 5242952,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242952,
+      "function_name": "fprintf",
+      "entry_state": null,
+      "exit_states": [],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4008a0": {
+      "addr": 4196512,
+      "size": 20,
+      "instructions": [
+        "0x4008a0: mov x2, x0",
+        "0x4008a4: adrp x0, #0x400000",
+        "0x4008a8: add x1, x0, #0x978",
+        "0x4008ac: mov x0, x19",
+        "0x4008b0: bl #0x4006f0"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x601060": {
+      "addr": 6295648,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 6295648,
+      "function_name": "__libc_start_main",
+      "entry_state": null,
+      "exit_states": [],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400868": {
+      "addr": 4196456,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242952,
+      "function_name": "fprintf",
+      "entry_state": null,
+      "exit_states": [],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4008f0": {
+      "addr": 4196592,
+      "size": 12,
+      "instructions": [
+        "0x4008f0: ldr x19, [sp, #0x10]",
+        "0x4008f4: ldp x29, x30, [sp], #0x50",
+        "0x4008f8: ret "
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4008d0": {
+      "addr": 4196560,
+      "size": 20,
+      "instructions": [
+        "0x4008d0: str w0, [sp, #0x3c]",
+        "0x4008d4: ldr w1, [sp, #0x3c]",
+        "0x4008d8: adrp x0, #0x400000",
+        "0x4008dc: add x0, x0, #0x990",
+        "0x4008e0: bl #0x4006d0"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        },
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>",
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4006d0": {
+      "addr": 4196048,
+      "size": 16,
+      "instructions": [
+        "0x4006d0: adrp x16, #0x420000",
+        "0x4006d4: ldr x17, [x16, #0x38]",
+        "0x4006d8: add x16, x16, #0x38",
+        "0x4006dc: br x17"
+      ],
+      "function_addr": 4196048,
+      "function_name": "printf",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x500038": {
+      "addr": 5242936,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242936,
+      "function_name": "printf",
+      "entry_state": null,
+      "exit_states": [],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4008b4": {
+      "addr": 4196532,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242952,
+      "function_name": "fprintf",
+      "entry_state": null,
+      "exit_states": [],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4006e0": {
+      "addr": 4196064,
+      "size": 16,
+      "instructions": [
+        "0x4006e0: adrp x16, #0x420000",
+        "0x4006e4: ldr x17, [x16, #0x40]",
+        "0x4006e8: add x16, x16, #0x40",
+        "0x4006ec: br x17"
+      ],
+      "function_addr": 4196064,
+      "function_name": "dlclose",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x500040": {
+      "addr": 5242944,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242944,
+      "function_name": "dlclose",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4008bc": {
+      "addr": 4196540,
+      "size": 8,
+      "instructions": [
+        "0x4008bc: mov w0, #1",
+        "0x4008c0: b #0x4008f0"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [
+        {
+          "registers": {
+            "rax": null,
+            "rbx": null,
+            "rcx": null,
+            "rdx": null,
+            "rsi": null,
+            "rdi": null,
+            "rbp": null,
+            "rsp": null,
+            "r8": null,
+            "r9": null,
+            "r10": null,
+            "r11": null,
+            "r12": null,
+            "r13": null,
+            "r14": null,
+            "r15": null,
+            "rip": null
+          },
+          "flags": {
+            "cf": null,
+            "pf": null,
+            "af": null,
+            "zf": null,
+            "sf": null,
+            "tf": null,
+            "df": null,
+            "of": null
+          },
+          "symbolic_regs": [
+            "r8",
+            "r9",
+            "r10",
+            "r11",
+            "r12",
+            "r13",
+            "r14",
+            "r15"
+          ]
+        }
+      ],
+      "constraints": [
+        "<Bool True>",
+        "<Bool False>"
+      ],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4008e4": {
+      "addr": 4196580,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 5242936,
+      "function_name": "printf",
+      "entry_state": null,
+      "exit_states": [],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x400730": {
+      "addr": 4196144,
+      "size": 0,
+      "instructions": [],
+      "function_addr": 6295648,
+      "function_name": "__libc_start_main",
+      "entry_state": null,
+      "exit_states": [],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    },
+    "0x4008ec": {
+      "addr": 4196588,
+      "size": 4,
+      "instructions": [
+        "0x4008ec: mov w0, #0"
+      ],
+      "function_addr": 4196356,
+      "function_name": "main",
+      "entry_state": null,
+      "exit_states": [],
+      "constraints": [],
+      "memory_reads": [],
+      "memory_writes": [],
+      "loads_library": null,
+      "resolves_symbol": null,
+      "is_entry": false,
+      "is_exit": false,
+      "is_call_target": false,
+      "is_dynamic_target": false
+    }
+  },
+  "edges": [
+    {
+      "src_addr": 4196096,
+      "dst_addr": 4195952,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4195952,
+      "dst_addr": 5242896,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242896,
+      "dst_addr": 4196148,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242896,
+      "dst_addr": 6295648,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196148,
+      "dst_addr": 4196356,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196356,
+      "dst_addr": 4196016,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196356,
+      "dst_addr": 4196388,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196016,
+      "dst_addr": 5242920,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242920,
+      "dst_addr": 4196388,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196388,
+      "dst_addr": 4195968,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196388,
+      "dst_addr": 4196404,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4195968,
+      "dst_addr": 5242904,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242904,
+      "dst_addr": 4196404,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196404,
+      "dst_addr": 4196420,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196404,
+      "dst_addr": 4196464,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196420,
+      "dst_addr": 4195936,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196420,
+      "dst_addr": 4196436,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196464,
+      "dst_addr": 4196032,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196464,
+      "dst_addr": 4196480,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4195936,
+      "dst_addr": 5242888,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196032,
+      "dst_addr": 5242928,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242888,
+      "dst_addr": 4196436,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242928,
+      "dst_addr": 4196480,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196436,
+      "dst_addr": 4196080,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196436,
+      "dst_addr": 4196456,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196480,
+      "dst_addr": 4196496,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196480,
+      "dst_addr": 4196548,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196080,
+      "dst_addr": 5242952,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196496,
+      "dst_addr": 4195936,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196496,
+      "dst_addr": 4196512,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196548,
+      "dst_addr": 4196560,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242952,
+      "dst_addr": 4196456,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4195936,
+      "dst_addr": 5242888,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242888,
+      "dst_addr": 4196512,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196512,
+      "dst_addr": 4196080,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196512,
+      "dst_addr": 4196532,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196080,
+      "dst_addr": 5242952,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242952,
+      "dst_addr": 4196532,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 6295648,
+      "dst_addr": 6295648,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 6295648,
+      "dst_addr": 4196144,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196456,
+      "dst_addr": 4196592,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196592,
+      "dst_addr": 6295648,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196560,
+      "dst_addr": 4196048,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196560,
+      "dst_addr": 4196580,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196048,
+      "dst_addr": 5242936,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242936,
+      "dst_addr": 4196580,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196532,
+      "dst_addr": 4196064,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196532,
+      "dst_addr": 4196540,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196064,
+      "dst_addr": 5242944,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242944,
+      "dst_addr": 4196540,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196540,
+      "dst_addr": 4196592,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196580,
+      "dst_addr": 4196064,
+      "edge_type": "DIRECT_CALL",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196580,
+      "dst_addr": 4196588,
+      "edge_type": "DIRECT_JUMP",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196064,
+      "dst_addr": 5242944,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 5242944,
+      "dst_addr": 4196588,
+      "edge_type": "RETURN",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    },
+    {
+      "src_addr": 4196588,
+      "dst_addr": 4196592,
+      "edge_type": "FALLTHROUGH",
+      "condition": null,
+      "resolution_method": null,
+      "confidence": 1.0,
+      "library_loaded": null,
+      "symbol_resolved": null
+    }
+  ],
+  "functions": {
+    "0x400700": "_start",
+    "0x400670": "__libc_start_main",
+    "0x500010": "__libc_start_main",
+    "0x400734": "__wrap_main",
+    "0x400804": "main",
+    "0x4006b0": "puts",
+    "0x500028": "puts",
+    "0x400680": "dlopen",
+    "0x500018": "dlopen",
+    "0x400660": "dlerror",
+    "0x4006c0": "dlsym",
+    "0x500008": "dlerror",
+    "0x500030": "dlsym",
+    "0x4006f0": "fprintf",
+    "0x500048": "fprintf",
+    "0x601060": "__libc_start_main",
+    "0x4006d0": "printf",
+    "0x500038": "printf",
+    "0x4006e0": "dlclose",
+    "0x500040": "dlclose"
+  },
+  "discovered_libraries": [
+    "\u0000\u0000\u0000\u0000\u0000@\t@"
+  ],
+  "resolved_symbols": {
+    "\u0000\u0000\u0000\u0000\u0000@\th": 0
+  },
+  "statistics": {
+    "total_instructions": 120,
+    "total_basic_blocks": 47,
+    "static_edges": 56,
+    "dynamic_edges": 0
+  }
+}

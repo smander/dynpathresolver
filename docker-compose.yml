@@ -1,0 +1,93 @@
+version: '3.8'
+
+services:
+  dynpathresolver:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dynpathresolver
+    volumes:
+      # Mount for live development
+      - ./dynpathresolver:/app/dynpathresolver
+      - ./tests:/app/tests
+      - ./examples:/app/examples
+      - ./evaluate.py:/app/evaluate.py
+      - ./evaluate_simple.py:/app/evaluate_simple.py
+      # Output directory for analysis results
+      - ./output:/app/output
+    working_dir: /app
+    command: ["bash"]
+    stdin_open: true
+    tty: true
+
+  # Service for running analysis
+  analyze:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dynpathresolver-analyze
+    volumes:
+      - ./dynpathresolver:/app/dynpathresolver
+      - ./examples:/app/examples
+      - ./output:/app/output
+    working_dir: /app
+    command: ["python", "examples/run_analysis.py"]
+
+  # Service for running tests
+  test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dynpathresolver-test
+    volumes:
+      - ./dynpathresolver:/app/dynpathresolver
+      - ./tests:/app/tests
+    working_dir: /app
+    command: ["pytest", "-v", "--tb=short"]
+
+  # Service for compiling the paper
+  paper:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dynpathresolver-paper
+    volumes:
+      - ./paper:/app/paper
+    working_dir: /app/paper
+    command: ["make", "all"]
+
+  # Service for running evaluation with Frida validation
+  validate:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dynpathresolver-validate
+    volumes:
+      - ./dynpathresolver:/app/dynpathresolver
+      - ./examples:/app/examples
+      - ./output:/app/output
+      - ./evaluate.py:/app/evaluate.py
+    working_dir: /app
+    command: ["python", "evaluate.py", "--all", "--validation-mode", "validate", "--verbose"]
+    # Required for Frida to attach to processes
+    privileged: true
+    security_opt:
+      - seccomp:unconfined
+
+  # Service for running single benchmark validation
+  validate-single:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dynpathresolver-validate-single
+    volumes:
+      - ./dynpathresolver:/app/dynpathresolver
+      - ./examples:/app/examples
+      - ./output:/app/output
+      - ./evaluate.py:/app/evaluate.py
+    working_dir: /app
+    # Override command with: docker-compose run validate-single --benchmark 01_simple_dlopen
+    entrypoint: ["python", "evaluate.py", "--validation-mode", "validate", "--verbose"]
+    privileged: true
+    security_opt:
+      - seccomp:unconfined

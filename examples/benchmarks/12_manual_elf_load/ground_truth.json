@@ -1,0 +1,15 @@
+{
+    "benchmark": "12_manual_elf_load",
+    "description": "Library loaded via manual ELF parsing - completely bypasses dlopen",
+    "technique": "manual_elf_loader",
+    "difficulty": "very_hard",
+    "expected_libraries": [
+        {
+            "name": "libmanual.so",
+            "load_condition": "unconditional",
+            "obfuscation": "no dlopen call - manual mmap and ELF parsing"
+        }
+    ],
+    "expected_symbols": ["manual_function"],
+    "notes": "Most advanced evasion - requires detecting mmap+exec patterns or ELF header parsing"
+}

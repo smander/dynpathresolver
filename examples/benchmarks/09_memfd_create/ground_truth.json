@@ -1,0 +1,15 @@
+{
+    "benchmark": "09_memfd_create",
+    "description": "Library loaded from memory via memfd_create - no file on disk",
+    "technique": "fileless_loading",
+    "difficulty": "hard",
+    "expected_libraries": [
+        {
+            "name": "libmemfd_payload.so",
+            "load_condition": "unconditional",
+            "obfuscation": "loaded via /proc/self/fd/N from memfd"
+        }
+    ],
+    "expected_symbols": ["memfd_payload"],
+    "notes": "Fileless malware technique - library never exists as file on disk during dlopen"
+}

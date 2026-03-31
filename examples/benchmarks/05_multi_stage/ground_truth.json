@@ -1,0 +1,26 @@
+{
+    "benchmark": "05_multi_stage",
+    "description": "Multi-stage chained library loading",
+    "expected_libraries": [
+        {
+            "name": "libstage1.so",
+            "path": "./libstage1.so",
+            "symbols": ["load_next_stage"],
+            "guarded": false,
+            "guard_type": null
+        },
+        {
+            "name": "libstage2.so",
+            "path": "./libstage2.so",
+            "symbols": ["final_payload"],
+            "guarded": false,
+            "guard_type": null
+        }
+    ],
+    "expected_dlopen_calls": 2,
+    "expected_dlsym_calls": 2,
+    "has_anti_debug": false,
+    "has_vm_detection": false,
+    "has_timing_checks": false,
+    "complexity": "high"
+}

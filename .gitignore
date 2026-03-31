@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+*.egg-info/
+.eggs/
+*.egg
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Build artifacts
+*.so
+*.o
+build/
+dist/
+
+# Compiled binaries (except in examples for reference)
+examples/complex_loader/loader
+examples/complex_loader/*.so
+
+# Output directories
+output/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Project-specific exclusions
+paper/
+dynpathresolverbackup/
+docs/

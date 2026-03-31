@@ -1,0 +1,19 @@
+{
+    "benchmark": "03_xor_encrypted",
+    "description": "XOR-encrypted library path",
+    "expected_libraries": [
+        {
+            "name": "libhidden.so",
+            "path": "./libhidden.so",
+            "symbols": ["hidden_function"],
+            "guarded": false,
+            "guard_type": null
+        }
+    ],
+    "expected_dlopen_calls": 1,
+    "expected_dlsym_calls": 1,
+    "has_anti_debug": false,
+    "has_vm_detection": false,
+    "has_timing_checks": false,
+    "complexity": "medium"
+}

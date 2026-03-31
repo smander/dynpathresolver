@@ -1,0 +1,29 @@
+{
+    "benchmark": "16_signal_handler",
+    "description": "Library loaded inside a signal handler via raise()",
+    "technique": "signal_handler",
+    "difficulty": "hard",
+    "expected_libraries": [
+        {
+            "name": "libsignal_payload.so",
+            "load_condition": "conditional",
+            "condition": "SIGUSR1 signal received",
+            "obfuscation": "dlopen called inside signal handler"
+        },
+        {
+            "name": "libsignal_alt.so",
+            "load_condition": "conditional",
+            "condition": "SIGUSR2 signal received",
+            "obfuscation": "handler registered via signal() not sigaction()"
+        }
+    ],
+    "expected_symbols": ["signal_payload", "alt_payload"],
+    "detection_indicators": {
+        "sigaction_call": true,
+        "signal_call": true,
+        "raise_call": true,
+        "dlopen_in_handler": true
+    },
+    "signals_used": ["SIGUSR1", "SIGUSR2"],
+    "notes": "Requires tracking sigaction/signal to identify handler addresses, then following execution into handlers"
+}

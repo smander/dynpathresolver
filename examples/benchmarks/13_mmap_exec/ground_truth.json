@@ -1,0 +1,22 @@
+{
+    "benchmark": "13_mmap_exec",
+    "description": "Library loaded via mmap with PROT_EXEC - bypasses dlopen",
+    "technique": "mmap_exec",
+    "difficulty": "hard",
+    "expected_libraries": [
+        {
+            "name": "libmmap_payload.so",
+            "load_condition": "unconditional",
+            "obfuscation": "no dlopen call - direct mmap with PROT_EXEC",
+            "detection_method": "open() + mmap(PROT_EXEC) correlation"
+        }
+    ],
+    "expected_symbols": ["mmap_function"],
+    "syscalls_required": ["open", "mmap"],
+    "detection_indicators": {
+        "mmap_prot_exec": true,
+        "file_backed_mapping": true,
+        "library_file_extension": true
+    },
+    "notes": "Detectable via syscall hooks - correlate open() fd with mmap(PROT_EXEC)"
+}

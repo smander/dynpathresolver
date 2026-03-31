@@ -1,0 +1,230 @@
+[
+  {
+    "benchmark": "01_simple_dlopen",
+    "status": "OK",
+    "steps": 18,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 56,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "02_environment_path",
+    "status": "OK",
+    "steps": 28,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 128,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "03_xor_encrypted",
+    "status": "OK",
+    "steps": 40,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 200,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "04_computed_path",
+    "status": "OK",
+    "steps": 33,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 181,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "05_multi_stage",
+    "status": "OK",
+    "steps": 21,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 77,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "06_stack_strings",
+    "status": "OK",
+    "steps": 22,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 80,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "07_time_triggered",
+    "status": "OK",
+    "steps": 31,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 172,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "09_memfd_create",
+    "status": "OK",
+    "steps": 75,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 830,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "10_indirect_call",
+    "status": "OK",
+    "steps": 25,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 66,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "11_multi_encoding",
+    "status": "OK",
+    "steps": 100,
+    "active_states": 1,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 35,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "14_rop_chain",
+    "status": "OK",
+    "steps": 87,
+    "active_states": 0,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 1292,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 0
+  },
+  {
+    "benchmark": "16_signal_handler",
+    "status": "OK",
+    "steps": 100,
+    "active_states": 1,
+    "memory": {
+      "mmaps": 0,
+      "mprotects": 0,
+      "exec_regions": 0,
+      "wx_transitions": 0
+    },
+    "control_flow": {
+      "indirect_calls": 1338,
+      "dynamic_calls": 0
+    },
+    "rop_chains": 0,
+    "jop_chains": 0,
+    "signal_handlers": 2
+  }
+]

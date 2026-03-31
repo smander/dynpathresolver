@@ -1,0 +1,15 @@
+{
+    "benchmark": "07_time_triggered",
+    "description": "Library loaded only after time condition is met",
+    "technique": "time_based_trigger",
+    "difficulty": "medium",
+    "expected_libraries": [
+        {
+            "name": "libtimed.so",
+            "load_condition": "time >= ACTIVATION_TIME",
+            "obfuscation": "conditional on system time"
+        }
+    ],
+    "expected_symbols": ["timed_payload"],
+    "notes": "Requires symbolic execution to handle time() return value"
+}

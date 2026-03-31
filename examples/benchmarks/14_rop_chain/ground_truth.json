@@ -1,0 +1,22 @@
+{
+    "benchmark": "14_rop_chain",
+    "description": "Library loaded via simulated ROP chain execution",
+    "technique": "rop",
+    "difficulty": "very_hard",
+    "expected_libraries": [
+        {
+            "name": "librop_payload.so",
+            "load_condition": "conditional",
+            "condition": "buffer overflow triggers ROP chain",
+            "obfuscation": "control flow via ROP gadgets"
+        }
+    ],
+    "expected_symbols": ["rop_payload"],
+    "detection_indicators": {
+        "rop_gadgets": true,
+        "consecutive_returns": true,
+        "dlopen_via_rop": true
+    },
+    "gadgets_used": ["gadget1_pop_rdi", "gadget2_pop_rsi", "gadget3_nop"],
+    "notes": "Simulated ROP for safety - demonstrates gadget chain pattern detection"
+}

@@ -1,0 +1,15 @@
+{
+    "benchmark": "06_stack_strings",
+    "description": "Library name built character-by-character on stack - no string literal in binary",
+    "technique": "stack_string_construction",
+    "difficulty": "medium",
+    "expected_libraries": [
+        {
+            "name": "libstack.so",
+            "load_condition": "unconditional",
+            "obfuscation": "character-by-character stack construction"
+        }
+    ],
+    "expected_symbols": ["stack_function"],
+    "notes": "Common malware technique to avoid string-based detection"
+}

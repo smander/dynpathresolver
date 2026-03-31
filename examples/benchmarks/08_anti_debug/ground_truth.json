@@ -1,0 +1,16 @@
+{
+    "benchmark": "08_anti_debug",
+    "description": "Library loaded only if no debugger is attached",
+    "technique": "anti_debugging",
+    "difficulty": "medium",
+    "expected_libraries": [
+        {
+            "name": "libprotected.so",
+            "load_condition": "no debugger attached",
+            "obfuscation": "ptrace and /proc/self/status checks"
+        }
+    ],
+    "expected_symbols": ["protected_function"],
+    "has_anti_debug": true,
+    "notes": "Requires hooking ptrace/fopen or exploring both branches"
+}

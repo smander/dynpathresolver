@@ -1,0 +1,25 @@
+FROM python:3.11-slim
+
+# Install system dependencies including tracing tools for dynamic validation
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    gcc \
+    libffi-dev \
+    ltrace \
+    strace \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies including Frida for dynamic instrumentation
+RUN pip install --no-cache-dir angr frida frida-tools
+
+# Set working directory
+WORKDIR /app
+
+# Copy project
+COPY . /app/
+
+# Install dynpathresolver
+RUN pip install -e .
+
+# Default command
+CMD ["python", "examples/benchmarks/run_analysis.py"]
