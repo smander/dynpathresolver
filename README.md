@@ -661,40 +661,6 @@ docker exec dynpathresolver bash -c "cd /app/paper && pdflatex enhanced_main.tex
 # Stop container
 docker-compose down
 ```
-
----
-
-## Research Paper
-
-The accompanying research paper is in `paper/`:
-
-```bash
-# Compile (in Docker)
-docker exec dynpathresolver bash -c "cd /app/paper && pdflatex enhanced_main.tex"
-
-# View
-open paper/enhanced_main.pdf
-```
-
-**Paper Highlights:**
-- 15-page IEEE S&P format
-- 15 benchmarks with 100% detection
-- Security comparison: symbolic vs. dynamic analysis
-- Combined CFG recovery across dynamic loading boundaries
-
----
-
-## Citation
-
-```bibtex
-@inproceedings{dynpathresolver2026,
-  title={{DynPathResolver: Safe Symbolic Analysis for Dynamic Code Discovery}},
-  author={Author Name},
-  booktitle={Proceedings of the IEEE Symposium on Security and Privacy},
-  year={2026}
-}
-```
-
 ---
 
 ## License
